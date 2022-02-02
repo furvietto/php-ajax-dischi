@@ -1,3 +1,13 @@
+<!-- Prima Milestone:
+Stampiamo i dischi solo con l’utilizzo di PHP, che stampa direttamente i dischi in pagina: al caricamento della pagina ci saranno tutti i dischi.
+Passate a questa solo dopo aver fatto la prima milestone
+Seconda Milestone:
+Attraverso l’utilizzo di axios: al caricamento della pagina axios chiederà, attraverso una chiamata api, i dischi a php e li stamperà attraverso vue.
+Bonus:
+Attraverso un’altra chiamata api, filtrare gli album per genere
+Fate prima un diagramma come abbiamo visto assieme e poi solo dopo passate a creare i file che vi servono, provate prima ad includere anche con un banale echo pippo nel file, poi inserite i dati necessari -->
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,6 +24,8 @@
    <?php include_once __DIR__. "/partial/header.php" ?>
     <!-- main -->
     <?php include_once __DIR__. "/partial/main.php" ?>
+    
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 <script src="js/script.js"></script>
 </body>
 </html>
