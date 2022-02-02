@@ -2,9 +2,9 @@
 
 <main class="bc-main">
       <div class="container-fluid">
-          <div class="row justify-content-center">
+          <div class="row pt-4 justify-content-center">
               <div class="col-8" >
-                  <div v-if="cards" class="row gap-3 justify-content-around row-cols-6">
+                  <div class="row gap-3 justify-content-around row-cols-6">
                       <?php  
                       foreach ($response as $value) {
                         ?>

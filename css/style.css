@@ -12,7 +12,7 @@
     height: 94vh;      
 }    
 
-.bc-card {
+.bc-main .bc-card {
     background-color: #2e3a46;
     color: #797e7a ;
 }
